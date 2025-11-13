@@ -1,0 +1,899 @@
+shared |user user_id=U0003
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+1:0.0:1.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0061
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+7:0.0:1.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0002
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+1:0.0:1.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0085
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+9:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0018
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+3:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0033
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+5:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0005
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+2:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0042
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+4:0.0:1.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0004
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+2:1.0:0.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0049
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+6:1.0:0.0 |action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0007
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+2:1.0:0.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0037
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+6:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0024
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+4:1.0:0.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0013
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+2:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0099
+0:1.0:0.0 |action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0081
+0:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0068
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+8:1.0:0.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0006
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+3:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0011
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+4:1.0:0.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0010
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+5:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0061
+0:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0012
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+5:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0013
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+5:1.0:0.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0077
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+7:1.0:0.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0015
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+6:1.0:0.0 |action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0041
+0:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0017
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+6:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0020
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+7:0.0:1.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0085
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+4:0.0:1.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0001
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+4:0.0:1.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0027
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+8:1.0:0.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0065
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+4:0.0:1.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0030
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+9:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0035
+0:1.0:0.0 |action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0045
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+4:0.0:1.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0021
+0:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0005
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+6:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0042
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+8:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0038
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+1:0.0:1.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0089
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+8:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0044
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+2:1.0:0.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0069
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+8:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0056
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+3:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0001
+0:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0061
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+6:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0002
+0:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0085
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+8:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0064
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+4:1.0:0.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0018
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+2:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0033
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+4:0.0:1.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0077
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+1:1.0:0.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0049
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+8:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0025
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+4:0.0:1.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0049
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+5:1.0:0.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0007
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+1:1.0:0.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0024
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+3:1.0:0.0 |action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0070
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+5:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0013
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+9:1.0:0.0 |action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0099
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+9:1.0:0.0 |action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0068
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+7:1.0:0.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0093
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+2:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0001
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+8:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0080
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+3:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0073
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+2:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0029
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+8:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0005
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+4:0.0:1.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0053
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+2:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0005
+0:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0042
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+2:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0097
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+6:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0036
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+1:0.0:1.0 |action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0009
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+8:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0077
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+6:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0033
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+2:0.0:1.0 |action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+|action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605
+
+shared |user user_id=U0057
+|action model_name=LeadFinder model_type=content-based variant_id=V0001 version=1.0.0 model_id=266df8c1d country_code=UK MAE=0.697 RMSE=0.903 HR=0.031 cHR=0.024 MRR=0.011 Coverage=0.955 Precision@K=0.45 Recall@K=0.562 F1@K=0.557
+|action model_name=LeadFinder model_type=collaborative variant_id=V0002 version=1.0.1 model_id=61e8c5ad9 country_code=UK MAE=0.512 RMSE=0.64 HR=0.058 cHR=0.081 MRR=0.02 Coverage=0.921 Precision@K=0.387 Recall@K=0.612 F1@K=0.476
+|action model_name=LeadFinder model_type=hybrid variant_id=V0003 version=1.0.2 model_id=792f890e1 country_code=UK MAE=0.601 RMSE=0.792 HR=0.072 cHR=0.066 MRR=0.028 Coverage=0.946 Precision@K=0.421 Recall@K=0.644 F1@K=0.506
+|action model_name=LeadFinder model_type=content-based variant_id=V0004 version=1.0.3 model_id=74a633529 country_code=UK MAE=0.674 RMSE=0.884 HR=0.041 cHR=0.033 MRR=0.016 Coverage=0.958 Precision@K=0.472 Recall@K=0.586 F1@K=0.575
+|action model_name=LeadFinder model_type=collaborative variant_id=V0005 version=1.0.4 model_id=29159df53 country_code=UK MAE=0.483 RMSE=0.609 HR=0.069 cHR=0.101 MRR=0.032 Coverage=0.936 Precision@K=0.41 Recall@K=0.628 F1@K=0.501
+|action model_name=LeadFinder model_type=hybrid variant_id=V0006 version=1.0.5 model_id=c2b00775e country_code=UK MAE=0.559 RMSE=0.721 HR=0.083 cHR=0.088 MRR=0.037 Coverage=0.949 Precision@K=0.438 Recall@K=0.661 F1@K=0.527
+6:0.0:1.0 |action model_name=LeadFinder model_type=content-based variant_id=V0007 version=1.0.6 model_id=4bb3b90a0 country_code=UK MAE=0.642 RMSE=0.861 HR=0.048 cHR=0.039 MRR=0.02 Coverage=0.963 Precision@K=0.49 Recall@K=0.603 F1@K=0.591
+|action model_name=LeadFinder model_type=collaborative variant_id=V0008 version=1.0.7 model_id=e1068b63a country_code=UK MAE=0.451 RMSE=0.587 HR=0.078 cHR=0.118 MRR=0.044 Coverage=0.94 Precision@K=0.428 Recall@K=0.649 F1@K=0.522
+|action model_name=LeadFinder model_type=hybrid variant_id=V0009 version=1.0.8 model_id=9c24ade57 country_code=UK MAE=0.528 RMSE=0.683 HR=0.091 cHR=0.099 MRR=0.049 Coverage=0.952 Precision@K=0.455 Recall@K=0.673 F1@K=0.546
+|action model_name=LeadFinder model_type=content-based variant_id=V0010 version=1.0.9 model_id=d5c34b87a country_code=UK MAE=0.623 RMSE=0.843 HR=0.056 cHR=0.048 MRR=0.025 Coverage=0.966 Precision@K=0.502 Recall@K=0.622 F1@K=0.605

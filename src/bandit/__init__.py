@@ -1,2 +1,18 @@
+import pandas as pd
+import argparse
+from bandit.utils.processing import generate_vw_input
+
 def main() -> None:
-    print("Hello from bandit!")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--shared_features", type=str, required=False)
+    parser.add_argument("--country_code", type=str, required=True)
+    args = parser.parse_args()
+
+    user_feedback = pd.read_csv("./data/user_feedback.csv").sort_values(by="timestamp").reset_index(drop=True)
+    model_features = pd.read_csv("./data/model_features.csv")
+    user_feedback = user_feedback[user_feedback["country_code"] == args.country_code]
+    model_features = model_features[model_features["country_code"] == args.country_code]
+    shared_features = args.shared_features.split(",") if args.shared_features else None
+    vw_input = generate_vw_input(user_feedback, model_features, shared_features)
+
+    print(vw_input)
