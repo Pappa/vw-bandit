@@ -1,0 +1,17 @@
+# Event 1: user-123's first visit.
+# Context: Mobile device.
+# Action: Was shown variant-alpha (index 0).
+# Outcome: Clicked, so cost = 0.
+shared |user user_id=user-123 country_code=US device=mobile
+0:0:1.0 |action model_name=Recommender-V4 model_type=MatrixFactorization variant_id=variant-alpha version=4 country_code=GLOBAL MAE=0.45 RMSE=0.88 HR=0.76 cHR=0.65 MRR=0.55 Coverage=0.21 Precision@K=0.41 Recall@K=0.33 F1@K=0.37
+|action model_name=Recommender-V4 model_type=MatrixFactorization variant_id=variant-beta version=4 country_code=GLOBAL MAE=0.48 RMSE=0.91 HR=0.74 cHR=0.63 MRR=0.53 Coverage=0.25 Precision@K=0.40 Recall@K=0.32 F1@K=0.36
+|action model_name=Recommender-V5 model_type=DeepLearning variant_id=variant-gamma version=5 country_code=GLOBAL MAE=0.41 RMSE=0.82 HR=0.81 cHR=0.72 MRR=0.61 Coverage=0.35 Precision@K=0.46 Recall@K=0.39 F1@K=0.42
+
+# Event 2: user-123's second visit. This is a completely separate training example.
+# Context: Desktop device.
+# Action: Was shown variant-gamma (index 2).
+# Outcome: No click, so cost = 1.
+shared |user user_id=user-123 country_code=US device=desktop
+|action model_name=Recommender-V4 model_type=MatrixFactorization variant_id=variant-alpha version=4 country_code=GLOBAL MAE=0.45 RMSE=0.88 HR=0.76 cHR=0.65 MRR=0.55 Coverage=0.21 Precision@K=0.41 Recall@K=0.33 F1@K=0.37
+|action model_name=Recommender-V4 model_type=MatrixFactorization variant_id=variant-beta version=4 country_code=GLOBAL MAE=0.48 RMSE=0.91 HR=0.74 cHR=0.63 MRR=0.53 Coverage=0.25 Precision@K=0.40 Recall@K=0.32 F1@K=0.36
+2:1:1.0 |action model_name=Recommender-V5 model_type=DeepLearning variant_id=variant-gamma version=5 country_code=GLOBAL MAE=0.41 RMSE=0.82 HR=0.81 cHR=0.72 MRR=0.61 Coverage=0.35 Precision@K=0.46 Recall@K=0.39 F1@K=0.42
