@@ -1,0 +1,11 @@
+services:
+  bandit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: bandit:latest
+    working_dir: /app
+    entrypoint: ["uv", "run", "bandit"]
+    tty: true
+
+
