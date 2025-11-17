@@ -1,7 +1,7 @@
 import pandas as pd
 import argparse
 import time
-from bandit.utils.processing import generate_vw_input
+from bandit.utils.processing import generate_vw_input, generate_vw_actions
 from bandit.train import train_bandit
 
 
@@ -24,6 +24,8 @@ def main() -> None:
 
     model = train_bandit(training_data)
 
-    print(model)
-
-    time.sleep(300)
+    actions = generate_vw_actions(model_features.to_dict(orient="records"))
+    predict_input = "shared |user user_id=0\n" + "\n".join(actions)
+    print(predict_input)
+    predictions = model.predict(predict_input)
+    print(predictions)
