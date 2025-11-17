@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     image: bandit:latest
     working_dir: /app
-    entrypoint: ["uv", "run", "bandit"]
+    entrypoint: ["uv", "run", "bandit", "--country_code", "UK"]
     tty: true
 
 

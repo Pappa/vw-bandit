@@ -5,15 +5,16 @@ def generate_vw_input(
     user_feedback: pd.DataFrame,
     model_features: pd.DataFrame,
     shared_features: list[str] | None = None,
-) -> str:
+) -> list[str]:
     user_features = shared_features or ["user_id"]
-    output = []
+    events = []
     for row in user_feedback.itertuples():
+        event = []
         feedback = float(row.feedback)
         shared = "shared |user " + " ".join(
             [f"{k}={str(getattr(row, k))}" for k in user_features]
         )
-        output.append(shared)
+        event.append(shared)
 
         models = model_features.to_dict(orient="records")
 
@@ -23,8 +24,8 @@ def generate_vw_input(
                 label = f"{idx}:{round(1.0 - feedback, 1)}:{round(feedback, 1)} "
             action_items = [f'{k}={str(v).replace(" ", "-")}' for k, v in model.items()]
             action = f"{label}|action {' '.join(action_items)}"
-            output.append(action)
+            event.append(action)
 
-        output.append("")
+        events.append("\n".join(event))
 
-    return "\n".join(output)
+    return events

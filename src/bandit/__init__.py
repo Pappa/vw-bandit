@@ -1,6 +1,9 @@
 import pandas as pd
 import argparse
+import time
 from bandit.utils.processing import generate_vw_input
+from bandit.train import train_bandit
+
 
 def main() -> None:
     parser = argparse.ArgumentParser()
@@ -8,11 +11,19 @@ def main() -> None:
     parser.add_argument("--country_code", type=str, required=True)
     args = parser.parse_args()
 
-    user_feedback = pd.read_csv("./data/user_feedback.csv").sort_values(by="timestamp").reset_index(drop=True)
+    user_feedback = (
+        pd.read_csv("./data/user_feedback.csv")
+        .sort_values(by="timestamp")
+        .reset_index(drop=True)
+    )
     model_features = pd.read_csv("./data/model_features.csv")
     user_feedback = user_feedback[user_feedback["country_code"] == args.country_code]
     model_features = model_features[model_features["country_code"] == args.country_code]
     shared_features = args.shared_features.split(",") if args.shared_features else None
-    vw_input = generate_vw_input(user_feedback, model_features, shared_features)
+    training_data = generate_vw_input(user_feedback, model_features, shared_features)
 
-    print(vw_input)
+    model = train_bandit(training_data)
+
+    print(model)
+
+    time.sleep(300)
