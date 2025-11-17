@@ -19,4 +19,8 @@ url = "https://pypi.org/simple"
 default = true
 
 [dependency-groups]
-dev = ["ipykernel>=7.1.0"]
+dev = [
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.7",
+    "seaborn>=0.13.2",
+]
