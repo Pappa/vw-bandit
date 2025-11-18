@@ -26,12 +26,12 @@ def main() -> None:
     actions = generate_vw_actions(model_features.to_dict(orient="records"))
     predict_input = "shared |user user_id=null\n" + "\n".join(actions)
     predictions = model.predict(predict_input)
-    model_predictions = model_features.copy()[
+    model_scores = model_features.copy()[
         ["country_code", "variant_id", "model_type", "version", "model_id"]
     ]
-    model_predictions["prediction"] = predictions
+    model_scores["score"] = predictions
 
-    # model_predictions.to_csv(
-    #     f"./data/model_predictions_{args.country_code}.csv", index=False
+    # model_scores.to_csv(
+    #     f"./data/model_scores_{args.country_code}.csv", index=False
     # )
-    print(model_predictions.to_string())
+    print(model_scores.to_string())
