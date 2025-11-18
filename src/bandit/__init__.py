@@ -30,5 +30,7 @@ def main() -> None:
         ["country_code", "variant_id", "model_type", "version", "model_id"]
     ]
     model_predictions["prediction"] = predictions
-    print("sum of predictions:", model_predictions["prediction"].sum().round(5))
-    print(model_predictions.to_string())
+
+    model_predictions.to_csv(
+        f"./data/model_predictions_{args.country_code}.csv", index=False
+    )
