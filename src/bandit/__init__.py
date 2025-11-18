@@ -31,6 +31,7 @@ def main() -> None:
     ]
     model_predictions["prediction"] = predictions
 
-    model_predictions.to_csv(
-        f"./data/model_predictions_{args.country_code}.csv", index=False
-    )
+    # model_predictions.to_csv(
+    #     f"./data/model_predictions_{args.country_code}.csv", index=False
+    # )
+    print(model_predictions.to_string())
