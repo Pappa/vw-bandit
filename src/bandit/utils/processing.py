@@ -14,7 +14,7 @@ def generate_vw_input(
     for row in user_feedback.itertuples():
         event = []
         feedback = float(row.feedback)
-        shared = "shared |user " + " ".join(
+        shared = "shared |User " + " ".join(
             [f"{k}={str(getattr(row, k))}" for k in user_features]
         )
         event.append(shared)
@@ -35,6 +35,6 @@ def generate_vw_actions(models: list[dict]) -> list[str]:
     actions = []
     for model in models:
         action_items = [f'{k}={str(v).replace(" ", "-")}' for k, v in model.items()]
-        action = f"|action {' '.join(action_items)}"
+        action = f"|Action {' '.join(action_items)}"
         actions.append(action)
     return actions
