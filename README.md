@@ -6,7 +6,11 @@ The use-case is rolling out new recommender models in production.
 
 ## Usage
 
-Sample data can be created via the [create_sample_data](notebooks/create_sample_data.ipynb) notebook.
+Sample data can be created via the [create_sample_data](notebooks/create_sample_data.ipynb) notebook, or via:
+
+```bash
+uv run generate_data --overwrite true
+```
 
 To train the bandit, create the sample data and then execute a round of training via one of:
 
