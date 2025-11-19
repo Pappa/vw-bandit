@@ -1,6 +1,6 @@
 # VW-Bandit
 
-A PoC to experiment building contextual multi-armed bandits with the Vowpal Wabbit ML library.
+A PoC to experiment building contextual multi-armed bandits with the [Vowpal Wabbit](https://vowpalwabbit.org/) ML library.
 
 The use-case is rolling out new recommender models in production.
 
