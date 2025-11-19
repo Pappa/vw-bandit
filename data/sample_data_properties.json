@@ -1,0 +1,28 @@
+{
+  "metrics": {
+    "error": ["MAE", "RMSE"],
+    "quality": [
+      "HR",
+      "cHR",
+      "MRR",
+      "Coverage",
+      "Precision@K",
+      "Recall@K",
+      "F1@K"
+    ]
+  },
+  "model_name": "LeadFinder",
+  "country_codes": ["FR", "LU", "NL", "UK"],
+  "model_types": ["content-based", "collaborative", "hybrid"],
+  "model_features": [
+    "model_name",
+    "country_code",
+    "variant_id",
+    "model_type",
+    "version",
+    "model_id"
+  ],
+  "num_versions": 3,
+  "num_users": 50,
+  "num_requests_per_user": [5, 20]
+}

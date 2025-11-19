@@ -8,6 +8,7 @@ dependencies = ["pandas>=2.3.3", "setuptools>=80.9.0", "vowpalwabbit>=9.9"]
 
 [project.scripts]
 bandit = "bandit:main"
+generate_data = "bandit:generate_data"
 
 [build-system]
 requires = ["hatchling"]
